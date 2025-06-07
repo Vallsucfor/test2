@@ -48,6 +48,12 @@
       border-radius: 14px;
       box-shadow: 0 2px 12px #2222;
       padding: 14px 19px 2px 19px;
+      margin-left: auto;
+      margin-right: auto;
+      /* Center always! */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .menu-section h2 {
       color: #fff;
@@ -58,13 +64,17 @@
       border-bottom: 1px solid #fff3;
       padding-bottom: 6px;
       margin-bottom: 12px;
+      width: 100%;
+      text-align: center;
     }
     .item {
       display: flex;
       align-items: center;
+      justify-content: center; /* Κεντράρισμα περιεχομένου */
       padding: 13px 0;
       border-bottom: 1px solid #fff2;
       flex-wrap: wrap;
+      width: 100%;
     }
     .item-image {
       width: 120px;
@@ -75,6 +85,7 @@
       box-shadow: 0 3px 12px #19aabb77;
       background: #fff;
       flex-shrink: 0;
+      display: block;
     }
     .item-info {
       display: flex;
@@ -82,6 +93,8 @@
       min-width: 120px;
       flex: 1;
       color: #fff;
+      align-items: flex-start;
+      justify-content: center;
     }
     .item-name {
       font-weight: bold;
@@ -95,9 +108,29 @@
       color: #ffe28b;
     }
     @media (max-width: 700px) {
-      .menu-section { max-width: 98vw; }
-      .item { flex-direction: column; align-items: flex-start; }
-      .item-image { margin-right: 0; margin-bottom: 10px; width: 92vw; max-width: 210px; height: auto; }
+      .menu-section {
+        max-width: 98vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4vw;
+        padding-right: 4vw;
+      }
+      .item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .item-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 92vw;
+        max-width: 210px;
+        height: auto;
+      }
+      .item-info {
+        align-items: center;
+        text-align: center;
+      }
     }
     footer {
       margin-top: 40px;
