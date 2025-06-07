@@ -1,0 +1,40 @@
+# SALLATË / SALADS
+Sallatë Greke / Greek Salad,5.00,greek-salad.jpg
+Sallatë Fshati / Village Salad,4.50,
+Sallatë Jeshile / Green Salad,4.00,
+Sallatë Mediterrane / Mediterranean Salad,5.50,mediterranean-salad.jpg
+
+# SQEBASTI / SKEBASTI
+Sqepasti Pule / Chicken Skepasti,7.00,sqepasti-pule.jpg
+Sqepasti Llukaniko / Loukaniko Skepasti,7.00,
+Sqepasti Suxhuk / Sausage Skepasti,7.00,
+
+# PIJE FRESKUESE / SOFT DRINKS
+Coca Cola,2.00,cocacola.jpg
+Fanta,2.00,fanta.jpg
+Soda (Orange, Lemon, Mojito),2.00,
+Ice Tea,2.00,
+Bravo (Apple, Peach),2.00,
+Ujë i Vogël / Small Water,1.00,
+Ujë i Madh / Big Water,1.50,
+
+# KAFE / COFFEE
+Espresso,1.50,
+Frappe,2.00,
+Cappuccino,2.00,
+Americano,2.00,
+Machiatto,1.80,
+Freddo Espresso,2.50,
+Freddo Cappuccino,2.50,
+Lëng Portokalli / Orange Juice,2.50,
+
+# BIRRA / BEERS
+Peja,2.50,
+Elbar,2.50,
+Korça,2.50,
+Heineken,3.00,
+Bavaria,3.00,
+
+# VERË / WINE
+Verë e Kuqe / Red Wine,3.00,
+Verë e Bardhë / White Wine,3.00,
