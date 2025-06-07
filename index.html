@@ -4,56 +4,45 @@
   <meta charset="UTF-8">
   <title>MEDITERREAN - Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <style>
     body { font-family: Arial, sans-serif; background: #1a7aaa; color: #fff; margin:0; }
     .header { text-align: center; margin-top: 32px; margin-bottom: 24px;}
-    .header h1 { font-family: 'Dancing Script', cursive; font-size: 3em; letter-spacing: 0.12em; color: #191919; margin-bottom: 0.1em; font-weight: 700; text-shadow: 0 3px 16px #7ad3ee55, 0 1px 0 #fff3, 0 0.5px 0 #fff2; border: 2px solid #19191922; display: inline-block; padding: 0.12em 0.6em; background: rgba(255,255,255,0.04); border-radius: 16px;}
+    .header h1 { font-size: 3em; letter-spacing: 0.12em; color: #191919; margin-bottom: 0.1em; font-weight: 700; }
     .subtitle {margin-top: 8px;color: #191919cc;font-size: 1.1em;letter-spacing: 0.14em;opacity: 0.86;}
     .category {
       margin: 32px auto 8px auto;
-      max-width: 420px;
-      width: 95vw;
+      width: 98vw;
+      max-width: 520px;
       background: #ffffff18;
-      border-radius: 14px;
-      padding: 15px 0 10px 0;
+      border-radius: 18px;
+      padding: 18px 8px 12px 8px;
       box-shadow: 0 2px 11px #2222;
-    }
-    .category-title { text-align: center; font-size: 1.19em; letter-spacing: 0.08em; color: #ffe28b; margin: 0 0 14px 0;}
-    .menu-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      margin: 0 auto 16px auto;
-      background: #ffffff22;
-      padding: 11px 18px;
-      border-radius: 8px;
-      font-size: 1.08em;
       box-sizing: border-box;
     }
-    .item-row { display: flex; align-items: center; width: 100%; }
-    .item-image { width: 90px; height: 90px; object-fit: cover; border-radius: 10px; background: #fff; margin-right: 18px; }
-    .item-info { flex: 1 1 0; display: flex; flex-direction: column; }
-    .menu-name { font-weight: bold;}
-    .menu-price { color: #ffe28b; margin-top: 2px;}
-    @media (max-width: 480px) {
+    .category-title { text-align: center; font-size: 1.25em; letter-spacing: 0.08em; color: #ffe28b; margin: 0 0 18px 0; font-weight: bold;}
+    .menu-item {
+      background: #ffffff33;
+      margin: 0 0 14px 0;
+      padding: 14px 12px;
+      border-radius: 12px;
+      font-size: 1.12em;
+      color: #fff;
+      width: 100%;
+      box-sizing: border-box;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+    }
+    .menu-name { font-weight: 600;}
+    .menu-price { color: #ffe28b; font-size: 1em; margin-top: 4px;}
+    @media (max-width: 600px) {
       .category {
         width: 99vw;
         max-width: 99vw;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        border-radius: 14px;
       }
-      .menu-item {
-        width: 98vw;
-        max-width: 98vw;
-        padding-left: 0;
-        padding-right: 0;
-      }
-      .item-image { width: 70px; height: 70px; }
     }
   </style>
 </head>
@@ -62,36 +51,21 @@
     <h1>MEDITERREAN</h1>
     <div class="subtitle">TAVERN AND GYRO MENU</div>
   </div>
-  <div id="menu"></div>
-  <script>
-    fetch('menu.txt')
-      .then(r => r.text())
-      .then(txt => {
-        const lines = txt.split('\n');
-        let html = '', inCategory = false;
-        lines.forEach(line => {
-          line = line.trim();
-          if (!line) return;
-          if (line.startsWith('#')) {
-            if (inCategory) html += '</div>';
-            html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
-            inCategory = true;
-          } else {
-            const [name, price, image] = line.split(',');
-            html += `<div class="menu-item">
-              <div class="item-row">
-                ${image && image.trim() ? `<img class="item-image" src="images/${image.trim()}" alt="${name.trim()}" onerror="this.style.display='none';">` : ''}
-                <div class="item-info">
-                  <span class="menu-name">${name.trim()}</span>
-                  <span class="menu-price">${price.trim()}</span>
-                </div>
-              </div>
-            </div>`;
-          }
-        });
-        if (inCategory) html += '</div>';
-        document.getElementById('menu').innerHTML = html;
-      });
-  </script>
+  <div class="category">
+    <div class="category-title">SALLATË/SALADS</div>
+    <div class="menu-item">
+      <span class="menu-name">Sallatë Greke/ Greek Salad</span>
+      <span class="menu-price">300</span>
+    </div>
+    <div class="menu-item">
+      <span class="menu-name">Sallatë Fshati/ Village Salad</span>
+    </div>
+    <div class="menu-item">
+      <span class="menu-name">Sallatë Jeshile/ Green Salad</span>
+    </div>
+    <div class="menu-item">
+      <span class="menu-name">Sallatë Mediterrane/ Salad Mediterranean</span>
+    </div>
+  </div>
 </body>
 </html>
