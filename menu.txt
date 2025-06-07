@@ -1,5 +1,5 @@
 # SALLATË/SALADS
-Sallatë Greke/ Greek Salad|200|
+Sallatë Greke/ Greek Salad |200|
 Sallatë Fshati/ Village Salad|200|
 Sallatë Jeshile/ Green Salad|300|
 Sallatë Mediterrane/ Salad Mediterrean|300|
