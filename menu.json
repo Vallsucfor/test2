@@ -3,65 +3,201 @@
     {
       "title": "SALLATË / SALADS",
       "items": [
-        {"name": "Sallatë Greke / Greek Salad", "price": "", "image": ""},
-        {"name": "Sallatë Fshati / Village Salad", "price": "", "image": ""},
-        {"name": "Sallatë Jeshile / Green Salad", "price": "", "image": ""},
-        {"name": "Sallatë Mediterrane / Mediterranean Salad", "price": "", "image": ""}
+        {
+          "name": "Sallatë Greke / Greek Salad",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sallatë Fshati / Village Salad",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sallatë Jeshile / Green Salad",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sallatë Mediterrane / Mediterranean Salad",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     },
     {
       "title": "ANTIPASTA / APPETIZERS",
       "items": [
-        {"name": "Patate / Fries", "price": "", "image": ""},
-        {"name": "Salcë kosi / Sour Cream", "price": "", "image": ""},
-        {"name": "Djath i Bardhë / White Cheese", "price": "", "image": ""},
-        {"name": "Perime Zgare / Grilled Vegetables", "price": "", "image": ""},
-        {"name": "Djath i Pjekur / Baked Cheese", "price": "", "image": ""},
-        {"name": "Tirokafteri / Tirokafteri", "price": "", "image": ""}
+        {
+          "name": "Patate / Fries",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Salcë kosi / Sour Cream",
+          "price": "",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400&q=80"
+        },
+        {
+          "name": "Djath i Bardhë / White Cheese",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Perime Zgare / Grilled Vegetables",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Djath i Pjekur / Baked Cheese",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Tirokafteri / Tirokafteri",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     },
     {
       "title": "RACION / PORTION",
       "items": [
-        {"name": "Racion Gyro Pule / Chicken Gyro Portion (Tzatziki, tomatoes, onion, fries, pita)", "price": "", "image": ""},
-        {"name": "Racion Shishqebap Pule / Chicken Kebab Portion (Tzatziki, tomatoes, onion, fries, pita)", "price": "", "image": ""},
-        {"name": "Chicken wings", "price": "", "image": ""},
-        {"name": "Racion Fileto Pule / Chicken Fillet", "price": "250", "image": ""},
-        {"name": "Chicken ribs", "price": "", "image": ""},
-        {"name": "Chicken burger (μπιφτέκι?)", "price": "", "image": ""},
-        {"name": "Racion Llukaniko Viçi / Veal Loukaniko Portion (Tzatziki, tomatoes, onion, fries, pita)", "price": "", "image": ""},
-        {"name": "Racion Suxhuk / Suxhuk Portion (Tzatziki, tomatoes, onion, fries, pita)", "price": "", "image": ""}
+        {
+          "name": "Racion Gyro Pule / Chicken Gyro Portion (Tzatziki, tomatoes, onion, fries, pita)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Racion Shishqebap Pule / Chicken Kebab Portion (Tzatziki, tomatoes, onion, fries, pita)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Chicken wings",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Racion Fileto Pule / Chicken Fillet",
+          "price": "250",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Chicken ribs",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Chicken burger (μπιφτέκι?)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Racion Llukaniko Viçi / Veal Loukaniko Portion (Tzatziki, tomatoes, onion, fries, pita)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Racion Suxhuk / Suxhuk Portion (Tzatziki, tomatoes, onion, fries, pita)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     },
     {
       "title": "ZGARË / GRILL",
       "items": [
-        {"name": "Shishqebap Pule / Chicken Kebap", "price": "", "image": ""},
-        {"name": "Llukaniko Viçi / Loukaniko Beef", "price": "", "image": ""},
-        {"name": "Fileto Pule / Chicken Fillet", "price": "", "image": ""},
-        {"name": "Mish Qingji / Lamb Meat", "price": "", "image": ""},
-        {"name": "Byftek vici / Beef Steak", "price": "", "image": ""},
-        {"name": "Mix Zgare / Mix Grill", "price": "", "image": ""}
+        {
+          "name": "Shishqebap Pule / Chicken Kebap",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Llukaniko Viçi / Loukaniko Beef",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Fileto Pule / Chicken Fillet",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Mish Qingji / Lamb Meat",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Byftek vici / Beef Steak",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Mix Zgare / Mix Grill",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     },
     {
       "title": "SUFLLAQE / GYRO",
       "items": [
-        {"name": "Sufllaqe pule / Chicken Gyro (Tzatziki, onion, tomatoes, fries)", "price": "", "image": ""},
-        {"name": "Sufllaqe me Shishqebap Pule / Gyro with Chicken Kebap (Tzatziki, onion, tomatoes, fries)", "price": "", "image": ""},
-        {"name": "Sufllaqe Suxhuk / Gyro with Sausage (Tzatziki, onion, tomatoes, fries)", "price": "", "image": ""},
-        {"name": "Sufllage Llukaniko / Gyro with Loukaniko (Tzatziki, onion, tomatoes, fries)", "price": "", "image": ""},
-        {"name": "Sufllage Vegjetariane / Vegetarian Gyro (Tzatziki, onion, tomatoes, fries)", "price": "", "image": ""}
+        {
+          "name": "Sufllaqe pule / Chicken Gyro (Tzatziki, onion, tomatoes, fries)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sufllaqe me Shishqebap Pule / Gyro with Chicken Kebap (Tzatziki, onion, tomatoes, fries)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sufllaqe Suxhuk / Gyro with Sausage (Tzatziki, onion, tomatoes, fries)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sufllage Llukaniko / Gyro with Loukaniko (Tzatziki, onion, tomatoes, fries)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sufllage Vegjetariane / Vegetarian Gyro (Tzatziki, onion, tomatoes, fries)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     },
     {
       "title": "SANDUIÇË / SANDWICH",
       "items": [
-        {"name": "Sanduiç Pule / Chicken Sandwich (Tomatoes, fries, sos)", "price": "", "image": ""},
-        {"name": "Sanduiç Shishqebap / Chicken Kebap Sandwich (Tomatoes, fries, sos)", "price": "", "image": ""},
-        {"name": "Sanduiç Llukaniko / Sausage Sandwich (Tomatoes, fries, sos)", "price": "", "image": ""},
-        {"name": "Sanduiç Vegjetariane / Vegetarian Sandwich (Tomatoes, fries, sos)", "price": "", "image": ""},
-        {"name": "Sanduiç Suxhuk / Sandwich with \"Suxhuk\" (Tomatoes, fries, sos)", "price": "", "image": ""}
+        {
+          "name": "Sanduiç Pule / Chicken Sandwich (Tomatoes, fries, sos)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sanduiç Shishqebap / Chicken Kebap Sandwich (Tomatoes, fries, sos)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sanduiç Llukaniko / Sausage Sandwich (Tomatoes, fries, sos)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sanduiç Vegjetariane / Vegetarian Sandwich (Tomatoes, fries, sos)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "name": "Sanduiç Suxhuk / Sandwich with \"Suxhuk\" (Tomatoes, fries, sos)",
+          "price": "",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+        }
       ]
     }
   ]
