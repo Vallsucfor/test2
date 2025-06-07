@@ -5,45 +5,38 @@
   <title>MEDITERREAN - Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; background: #1a7aaa; color: #fff; margin:0; }
-    .header { text-align: center; margin-top: 32px; margin-bottom: 24px;}
+    body { font-family: Arial, sans-serif; background: #1a7aaa; color: #fff; margin: 0; }
+    .header { text-align: center; margin-top: 32px; margin-bottom: 24px; }
     .header h1 { font-size: 3em; letter-spacing: 0.12em; color: #191919; margin-bottom: 0.1em; font-weight: 700; }
-    .subtitle {margin-top: 8px;color: #191919cc;font-size: 1.1em;letter-spacing: 0.14em;opacity: 0.86;}
+    .subtitle { margin-top: 8px; color: #191919cc; font-size: 1.1em; letter-spacing: 0.14em; opacity: 0.86; }
     .category {
       margin: 32px auto 8px auto;
-      width: 98vw;
-      max-width: 520px;
+      width: 98vw; max-width: 520px;
       background: #ffffff18;
       border-radius: 18px;
       padding: 18px 8px 12px 8px;
       box-shadow: 0 2px 11px #2222;
       box-sizing: border-box;
     }
-    .category-title { text-align: center; font-size: 1.25em; letter-spacing: 0.08em; color: #ffe28b; margin: 0 0 18px 0; font-weight: bold;}
+    .category-title { text-align: center; font-size: 1.25em; letter-spacing: 0.08em; color: #ffe28b; margin-bottom: 18px; font-weight: bold; }
     .menu-item {
+      display: flex; align-items: center;
       background: #ffffff33;
-      margin: 0 0 14px 0;
+      margin-bottom: 14px;
       padding: 14px 12px;
       border-radius: 12px;
       font-size: 1.12em;
       color: #fff;
-      width: 100%;
-      box-sizing: border-box;
       font-weight: 500;
-      display: flex;
-      flex-direction: column;
     }
-    .menu-name { font-weight: 600;}
-    .menu-price { color: #ffe28b; font-size: 1em; margin-top: 4px;}
-    @media (max-width: 600px) {
-      .category {
-        width: 99vw;
-        max-width: 99vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        border-radius: 14px;
-      }
+    .menu-img {
+      width: 50px; height: 50px;
+      margin-right: 10px;
+      border-radius: 8px;
+      object-fit: cover;
     }
+    .menu-name { font-weight: 600; flex-grow: 1; }
+    .menu-price { color: #ffe28b; font-size: 1em; }
   </style>
 </head>
 <body>
@@ -54,7 +47,7 @@
   <div id="menu"></div>
   <script>
     fetch('menu.txt')
-      .then(r => r.text())
+      .then(response => response.text())
       .then(txt => {
         const lines = txt.split('\n');
         let html = '';
@@ -63,18 +56,23 @@
           line = line.trim();
           if (!line) return;
           if (line.startsWith('#')) {
-            if (inCategory) html += '</div>'; // κλείνει το προηγούμενο κουτί
+            if (inCategory) html += '</div>';
             html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
             inCategory = true;
-          } else if (line.includes('|')) {
-            const [name, price] = line.split('|');
+          } else {
+            const parts = line.split('|');
+            if (parts.length < 2) return;
+            const name = parts[0].trim();
+            const price = parts[1].trim();
+            const img = parts[2] ? parts[2].trim() : '';  
             html += `<div class="menu-item">
-                       <span class="menu-name">${name.trim()}</span>
-                       ${price && price.trim() ? `<span class="menu-price">${price.trim()}</span>` : ''}
+                       ${img ? `<img src="images/${img}" alt="${name}" class="menu-img">` : ''}
+                       <span class="menu-name">${name}</span>
+                       ${price ? `<span class="menu-price">${price}</span>` : ''}
                      </div>`;
           }
         });
-        if (inCategory) html += '</div>'; // Κλείνει το τελευταίο κουτί!
+        if (inCategory) html += '</div>';
         document.getElementById('menu').innerHTML = html;
       });
   </script>
