@@ -1,80 +1,56 @@
-#SALLATË/SALADS
-Sallatë Greke/ Greek Salad.
-Sallatë Fshati/ Village Salad..
-Sallatë Jeshile/ Green Salad..
+# SALLATË/SALADS
+Sallatë Greke/ Greek Salad,300,
+Sallatë Fshati/ Village Salad,
+Sallatë Jeshile/ Green Salad,
 Sallatë Mediterrane/ Salad Mediterrean.
 
-#ANTIPASTA/APPETIZERS
+# ANTIPASTA/APPETIZERS
 Patate/Fries.
 
 Salcë kosi/Sour Cream.
-
 Djath i Bardhë/ White Cheese.
-
 Perime Zgare/ Grilled Vegetables.
-
 Djath i Pjekur/ Baked Cheese.
-
 Tirokafteri/Tirokafteri..
 
 
-#RACION/PORTION
+# RACION/PORTION
 Racion Gyro Pule/ Chicken Gyro Portion..
 (Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)
-
 Racion Shishqebap Pule/ Chicken Kebab Portion.... 
 (Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)
-
 Chicken wings
-
-Racion Fileto Pule / Chicken Fillet...
-250
-
+Racion Fileto Pule / Chicken Fillet.
 Chicken ribs
-
 Chicken burger(μπιφτεκι?)
-
 Racion Llukaniko Viçi / Veal Loukaniko Portion.
 (Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries,
 pita) 
-
 Racion Suxhuk/Suxhuk Portion..
 (Xaxiq, domate, qepë, patate, pite) /(Tzatziki, tomatoes, onion, fries, pita)
 
-#ZGARË/GRILL
+# ZGARË/GRILL
 
 Shishqebap Pule/ Chicken Kebap.
-
 Llukaniko Viçi/ Loukaniko Beef..
-
 Fileto Pule/ Chicken Fillet..
-
 Mish Qingji/ Lamb Meat..
-
 Byftek vici/ Beef Steak..
-
-
 Mix Zgare/Mix Grill....
 
-
-
-#SUFLLAQE/GYRO
+# SUFLLAQE/GYRO
 Sufllaqe pule/ Chicken Gyro.
 (Xoxiq, qepe, domate, patate)/(Tzatziki, onion, tomatoes, fries)
-
 Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebap 
 (Xaxiq, qepë, domate, patate)/(Tzatziki, onion, tomatoes, fries)
-
 Sufllaqe Suxhuk/Gyro with Sausage.
 (Xaxiq, qepë, domate, pafate)/ (Tzatziki, onion, tomatoes, fries)
-
 Sufllage Llukaniko/ Gyro with Loukaniko.
 (Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, tomatoes, fries)
-
 Sufllage Vegjetariane / Vegetarian Gyro.
 (Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, fomatoes, fries)
 
-#SANDUIÇË/ SANDWICH
+# SANDUIÇË/ SANDWICH
 Sanduiç Pule/ Chicken Sandwich 
 (Domate, patate, sos)/ (Tomatoes, fries, sos)
 Sanduiç Shishqebap/ Chicken Kebap Sandwich 
@@ -87,12 +63,12 @@ Sanduiç Suxhuk/Sandwich with "Suxhuk".
  (Domate, patate, sos)/ (Tomatoes, fries, sos)
 
 
-#SQEBASTI/SKEBASTI
+# SQEBASTI/SKEBASTI
 Sqepasti Pule /Chicken Skepasti.
 Sqepasti Llukaniko/ Loukaniko Skepasti.
 Sqepasti Suxhuk/ Sausage Skepasti.....
 
-#PIJE FRESKUESE/SOFT DRINKS
+# PIJE FRESKUESE/SOFT DRINKS
 Coca Cola.
 Fanta.
 Soda (Orange, Lemon, Mojito).
@@ -101,7 +77,7 @@ Bravo (Apple, Peach).
 Ujë i Vogël/Small Water.
 Ujë i Madh/ Big Water.
 
-#KAFE/COFFEE
+# KAFE/COFFEE
 Espresso
 Frappe
 Cappuccino
@@ -111,14 +87,14 @@ Freddo Espresso
 Freddo Cappuccino
 Lëng Portokalli/Orange Juice
 
-#BIRRA/BEERS
+# BIRRA/BEERS
 Peja.
 Elbar.
 Korça.
 Heineken.
 Bavaria.
 
-#VERË/WINE
+# VERË/WINE
 Verë e Kuqe/ Red Wine....
 Verë e Bardhë/ White Wine.
 
