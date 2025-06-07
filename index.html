@@ -20,7 +20,18 @@
       box-shadow: 0 2px 11px #2222;
     }
     .category-title { text-align: center; font-size: 1.19em; letter-spacing: 0.08em; color: #ffe28b; margin: 0 0 14px 0;}
-    .menu-item { display: flex; flex-direction: column; align-items: center; max-width: 350px; margin: 0 auto 16px auto; background: #ffffff22; padding: 11px 18px; border-radius: 8px; font-size: 1.08em;}
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto 16px auto;
+      background: #ffffff22;
+      padding: 11px 18px;
+      border-radius: 8px;
+      font-size: 1.08em;
+      box-sizing: border-box;
+    }
     .item-row { display: flex; align-items: center; width: 100%; }
     .item-image { width: 90px; height: 90px; object-fit: cover; border-radius: 10px; background: #fff; margin-right: 18px; }
     .item-info { flex: 1 1 0; display: flex; flex-direction: column; }
@@ -28,15 +39,20 @@
     .menu-price { color: #ffe28b; margin-top: 2px;}
     @media (max-width: 480px) {
       .category {
-        width: 98vw;
-        max-width: 98vw;
+        width: 99vw;
+        max-width: 99vw;
         margin-left: auto;
         margin-right: auto;
         border-radius: 10px;
         padding-left: 0;
         padding-right: 0;
       }
-      .menu-item { max-width: 98vw; }
+      .menu-item {
+        width: 98vw;
+        max-width: 98vw;
+        padding-left: 0;
+        padding-right: 0;
+      }
       .item-image { width: 70px; height: 70px; }
     }
   </style>
@@ -64,7 +80,7 @@
             const [name, price, image] = line.split(',');
             html += `<div class="menu-item">
               <div class="item-row">
-                ${image && image.trim() ? `<img class="item-image" src="images/${image.trim()}" alt="${name.trim()}">` : ''}
+                ${image && image.trim() ? `<img class="item-image" src="images/${image.trim()}" alt="${name.trim()}" onerror="this.style.display='none';">` : ''}
                 <div class="item-info">
                   <span class="menu-name">${name.trim()}</span>
                   <span class="menu-price">${price.trim()}</span>
