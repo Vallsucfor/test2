@@ -1,40 +1,124 @@
-# SALLATË / SALADS
-Sallatë Greke / Greek Salad,5.00,greek-salad.jpg
-Sallatë Fshati / Village Salad,4.50,
-Sallatë Jeshile / Green Salad,4.00,
-Sallatë Mediterrane / Mediterranean Salad,5.50,mediterranean-salad.jpg
+#SALLATË/SALADS
+Sallatë Greke/ Greek Salad.
+Sallatë Fshati/ Village Salad..
+Sallatë Jeshile/ Green Salad..
+Sallatë Mediterrane/ Salad Mediterrean.
 
-# SQEBASTI / SKEBASTI
-Sqepasti Pule / Chicken Skepasti,7.00,sqepasti-pule.jpg
-Sqepasti Llukaniko / Loukaniko Skepasti,7.00,
-Sqepasti Suxhuk / Sausage Skepasti,7.00,
+#ANTIPASTA/APPETIZERS
+Patate/Fries.
 
-# PIJE FRESKUESE / SOFT DRINKS
-Coca Cola,2.00,cocacola.jpg
-Fanta,2.00,fanta.jpg
-Soda (Orange, Lemon, Mojito),2.00,
-Ice Tea,2.00,
-Bravo (Apple, Peach),2.00,
-Ujë i Vogël / Small Water,1.00,
-Ujë i Madh / Big Water,1.50,
+Salcë kosi/Sour Cream.
 
-# KAFE / COFFEE
-Espresso,1.50,
-Frappe,2.00,
-Cappuccino,2.00,
-Americano,2.00,
-Machiatto,1.80,
-Freddo Espresso,2.50,
-Freddo Cappuccino,2.50,
-Lëng Portokalli / Orange Juice,2.50,
+Djath i Bardhë/ White Cheese.
 
-# BIRRA / BEERS
-Peja,2.50,
-Elbar,2.50,
-Korça,2.50,
-Heineken,3.00,
-Bavaria,3.00,
+Perime Zgare/ Grilled Vegetables.
 
-# VERË / WINE
-Verë e Kuqe / Red Wine,3.00,
-Verë e Bardhë / White Wine,3.00,
+Djath i Pjekur/ Baked Cheese.
+
+Tirokafteri/Tirokafteri..
+
+
+#RACION/PORTION
+Racion Gyro Pule/ Chicken Gyro Portion..
+(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)
+
+Racion Shishqebap Pule/ Chicken Kebab Portion.... 
+(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)
+
+Chicken wings
+
+Racion Fileto Pule / Chicken Fillet...
+250
+
+Chicken ribs
+
+Chicken burger(μπιφτεκι?)
+
+Racion Llukaniko Viçi / Veal Loukaniko Portion.
+(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries,
+pita) 
+
+Racion Suxhuk/Suxhuk Portion..
+(Xaxiq, domate, qepë, patate, pite) /(Tzatziki, tomatoes, onion, fries, pita)
+
+#ZGARË/GRILL
+
+Shishqebap Pule/ Chicken Kebap.
+
+Llukaniko Viçi/ Loukaniko Beef..
+
+Fileto Pule/ Chicken Fillet..
+
+Mish Qingji/ Lamb Meat..
+
+Byftek vici/ Beef Steak..
+
+
+Mix Zgare/Mix Grill....
+
+
+
+#SUFLLAQE/GYRO
+Sufllaqe pule/ Chicken Gyro.
+(Xoxiq, qepe, domate, patate)/(Tzatziki, onion, tomatoes, fries)
+
+Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebap 
+(Xaxiq, qepë, domate, patate)/(Tzatziki, onion, tomatoes, fries)
+
+Sufllaqe Suxhuk/Gyro with Sausage.
+(Xaxiq, qepë, domate, pafate)/ (Tzatziki, onion, tomatoes, fries)
+
+Sufllage Llukaniko/ Gyro with Loukaniko.
+(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, tomatoes, fries)
+
+Sufllage Vegjetariane / Vegetarian Gyro.
+(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, fomatoes, fries)
+
+#SANDUIÇË/ SANDWICH
+Sanduiç Pule/ Chicken Sandwich 
+(Domate, patate, sos)/ (Tomatoes, fries, sos)
+Sanduiç Shishqebap/ Chicken Kebap Sandwich 
+(Domate, patate, sos)/ (Tomatoes, fries, sos)
+Sanduiç Llukaniko / Sausage Sandwich 
+(Domate, patate, sos)/(Tomatoes, fries, sos)
+Sanduiç Vegjetariane/Vegetarian Sandwich 
+(Domate, patate, sos)/ (Tomatoes, fries, sos)
+Sanduiç Suxhuk/Sandwich with "Suxhuk".
+ (Domate, patate, sos)/ (Tomatoes, fries, sos)
+
+
+#SQEBASTI/SKEBASTI
+Sqepasti Pule /Chicken Skepasti.
+Sqepasti Llukaniko/ Loukaniko Skepasti.
+Sqepasti Suxhuk/ Sausage Skepasti.....
+
+#PIJE FRESKUESE/SOFT DRINKS
+Coca Cola.
+Fanta.
+Soda (Orange, Lemon, Mojito).
+Ice Tea
+Bravo (Apple, Peach).
+Ujë i Vogël/Small Water.
+Ujë i Madh/ Big Water.
+
+#KAFE/COFFEE
+Espresso
+Frappe
+Cappuccino
+Americano
+Machiatto
+Freddo Espresso
+Freddo Cappuccino
+Lëng Portokalli/Orange Juice
+
+#BIRRA/BEERS
+Peja.
+Elbar.
+Korça.
+Heineken.
+Bavaria.
+
+#VERË/WINE
+Verë e Kuqe/ Red Wine....
+Verë e Bardhë/ White Wine.
+
