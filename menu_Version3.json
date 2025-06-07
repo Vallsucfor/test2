@@ -1,0 +1,59 @@
+{
+  "sections": [
+    {
+      "title": "Καφέδες",
+      "items": [
+        {
+          "name": "Espresso",
+          "price": "2€",
+          "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=80&q=80"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "2.5€",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=80&q=80"
+        },
+        {
+          "name": "Freddo Espresso",
+          "price": "2.5€",
+          "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=80&q=80"
+        },
+        {
+          "name": "Freddo Cappuccino",
+          "price": "3€",
+          "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=80&q=80"
+        }
+      ]
+    },
+    {
+      "title": "Ροφήματα",
+      "items": [
+        {
+          "name": "Τσάι",
+          "price": "2€",
+          "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=80&q=80"
+        },
+        {
+          "name": "Σοκολάτα",
+          "price": "2.5€",
+          "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=80&q=80"
+        }
+      ]
+    },
+    {
+      "title": "Σνακ",
+      "items": [
+        {
+          "name": "Κρουασάν",
+          "price": "1.5€",
+          "image": "https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=80&q=80"
+        },
+        {
+          "name": "Τοστ",
+          "price": "2€",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=80&q=80"
+        }
+      ]
+    }
+  ]
+}
