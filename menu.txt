@@ -1,94 +1,94 @@
 # SALLATË/SALADS
-Sallatë Greke/ Greek Salad,300,
-Sallatë Fshati/ Village Salad,,
-Sallatë Jeshile/ Green Salad,,
-Sallatë Mediterrane/ Salad Mediterrean,,
+Sallatë Greke/ Greek Salad|300|
+Sallatë Fshati/ Village Salad||
+Sallatë Jeshile/ Green Salad||
+Sallatë Mediterrane/ Salad Mediterrean||
 
 # ANTIPASTA/APPETIZERS
-Patate/Fries,,
-Salcë kosi/Sour Cream,,
-Djath i Bardhë/ White Cheese,,
-Perime Zgare/ Grilled Vegetables,,
-Djath i Pjekur/ Baked Cheese,,
-Tirokafteri/Tirokafteri,,
+Patate/Fries||
+Salcë kosi/Sour Cream||
+Djath i Bardhë/ White Cheese||
+Perime Zgare/ Grilled Vegetables||
+Djath i Pjekur/ Baked Cheese||
+Tirokafteri/Tirokafteri||
 
 # RACION/PORTION
-Racion Gyro Pule/ Chicken Gyro Portion,,
-(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita),,
-Racion Shishqebap Pule/ Chicken Kebab Portion,,
-(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita),,
-Chicken wings,,
-Racion Fileto Pule / Chicken Fillet,,
-Chicken ribs,,
-Chicken burger (μπιφτεκι?),,
-Racion Llukaniko Viçi / Veal Loukaniko Portion,,
-(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita),,
-Racion Suxhuk/Suxhuk Portion,,
-(Xaxiq, domate, qepë, patate, pite) /(Tzatziki, tomatoes, onion, fries, pita),,
+Racion Gyro Pule/ Chicken Gyro Portion||
+(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)||
+Racion Shishqebap Pule/ Chicken Kebab Portion||
+(Xaxiq, domate, qepë, patate, pite)/ (Tzatziki, tomatoes, onion, fries, pita)||
+Chicken wings||
+Racion Fileto Pule / Chicken Fillet||
+Chicken ribs||
+Chicken burger (μπιφτεκι?)||
+Racion Llukaniko Viçi / Veal Loukaniko Portion||
+(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)||
+Racion Suxhuk/Suxhuk Portion||
+(Xaxiq, domate, qepë, patate, pite) /(Tzatziki, tomatoes, onion, fries, pita)||
 
 # ZGARË/GRILL
-Shishqebap Pule/ Chicken Kebap,,
-Llukaniko Viçi/ Loukaniko Beef,,
-Fileto Pule/ Chicken Fillet,,
-Mish Qingji/ Lamb Meat,,
-Byftek vici/ Beef Steak,,
-Mix Zgare/Mix Grill,,
+Shishqebap Pule/ Chicken Kebap||
+Llukaniko Viçi/ Loukaniko Beef||
+Fileto Pule/ Chicken Fillet||
+Mish Qingji/ Lamb Meat||
+Byftek vici/ Beef Steak||
+Mix Zgare/Mix Grill||
 
 # SUFLLAQE/GYRO
-Sufllaqe pule/ Chicken Gyro,,
-(Xoxiq, qepe, domate, patate)/(Tzatziki, onion, tomatoes, fries),,
-Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebap,,
-(Xaxiq, qepë, domate, patate)/(Tzatziki, onion, tomatoes, fries),,
-Sufllaqe Suxhuk/Gyro with Sausage,,
-(Xaxiq, qepë, domate, pafate)/ (Tzatziki, onion, tomatoes, fries),,
-Sufllage Llukaniko/ Gyro with Loukaniko,,
-(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, tomatoes, fries),,
-Sufllage Vegjetariane / Vegetarian Gyro,,
-(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, fomatoes, fries),,
+Sufllaqe pule/ Chicken Gyro||
+(Xoxiq, qepe, domate, patate)/(Tzatziki, onion, tomatoes, fries)||
+Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebap||
+(Xaxiq, qepë, domate, patate)/(Tzatziki, onion, tomatoes, fries)||
+Sufllaqe Suxhuk/Gyro with Sausage||
+(Xaxiq, qepë, domate, pafate)/ (Tzatziki, onion, tomatoes, fries)||
+Sufllage Llukaniko/ Gyro with Loukaniko||
+(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, tomatoes, fries)||
+Sufllage Vegjetariane / Vegetarian Gyro||
+(Xaxiq, qepë, domate, patate)/ (Tzatziki, onion, fomatoes, fries)||
 
 # SANDUIÇË/ SANDWICH
-Sanduiç Pule/ Chicken Sandwich,,
-(Domate, patate, sos)/ (Tomatoes, fries, sos),,
-Sanduiç Shishqebap/ Chicken Kebap Sandwich,,
-(Domate, patate, sos)/ (Tomatoes, fries, sos),,
-Sanduiç Llukaniko / Sausage Sandwich,,
-(Domate, patate, sos)/(Tomatoes, fries, sos),,
-Sanduiç Vegjetariane/Vegetarian Sandwich,,
-(Domate, patate, sos)/ (Tomatoes, fries, sos),,
-Sanduiç Suxhuk/Sandwich with "Suxhuk",,
-(Domate, patate, sos)/ (Tomatoes, fries, sos),,
+Sanduiç Pule/ Chicken Sandwich||
+(Domate, patate, sos)/ (Tomatoes, fries, sos)||
+Sanduiç Shishqebap/ Chicken Kebap Sandwich||
+(Domate, patate, sos)/ (Tomatoes, fries, sos)||
+Sanduiç Llukaniko / Sausage Sandwich||
+(Domate, patate, sos)/(Tomatoes, fries, sos)||
+Sanduiç Vegjetariane/Vegetarian Sandwich||
+(Domate, patate, sos)/ (Tomatoes, fries, sos)||
+Sanduiç Suxhuk/Sandwich with "Suxhuk"||
+(Domate, patate, sos)/ (Tomatoes, fries, sos)||
 
 # SQEBASTI/SKEBASTI
-Sqepasti Pule /Chicken Skepasti,,
-Sqepasti Llukaniko/ Loukaniko Skepasti,,
-Sqepasti Suxhuk/ Sausage Skepasti,,
+Sqepasti Pule /Chicken Skepasti||
+Sqepasti Llukaniko/ Loukaniko Skepasti||
+Sqepasti Suxhuk/ Sausage Skepasti||
 
 # PIJE FRESKUESE/SOFT DRINKS
-Coca Cola,,
-Fanta,,
-Soda (Orange, Lemon, Mojito),,
-Ice Tea,,
-Bravo (Apple, Peach),,
-Ujë i Vogël/Small Water,,
-Ujë i Madh/ Big Water,,
+Coca Cola||
+Fanta||
+Soda (Orange, Lemon, Mojito)||
+Ice Tea||
+Bravo (Apple, Peach)||
+Ujë i Vogël/Small Water||
+Ujë i Madh/ Big Water||
 
 # KAFE/COFFEE
-Espresso,,
-Frappe,,
-Cappuccino,,
-Americano,,
-Machiatto,,
-Freddo Espresso,,
-Freddo Cappuccino,,
-Lëng Portokalli/Orange Juice,,
+Espresso||
+Frappe||
+Cappuccino||
+Americano||
+Machiatto||
+Freddo Espresso||
+Freddo Cappuccino||
+Lëng Portokalli/Orange Juice||
 
 # BIRRA/BEERS
-Peja,,
-Elbar,,
-Korça,,
-Heineken,,
-Bavaria,,
+Peja||
+Elbar||
+Korça||
+Heineken||
+Bavaria||
 
 # VERË/WINE
-Verë e Kuqe/ Red Wine,,
-Verë e Bardhë/ White Wine,,
+Verë e Kuqe/ Red Wine||
+Verë e Bardhë/ White Wine||
