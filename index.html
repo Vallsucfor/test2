@@ -51,21 +51,32 @@
     <h1>MEDITERREAN</h1>
     <div class="subtitle">TAVERN AND GYRO MENU</div>
   </div>
-  <div class="category">
-    <div class="category-title">SALLATË/SALADS</div>
-    <div class="menu-item">
-      <span class="menu-name">Sallatë Greke/ Greek Salad</span>
-      <span class="menu-price">300</span>
-    </div>
-    <div class="menu-item">
-      <span class="menu-name">Sallatë Fshati/ Village Salad</span>
-    </div>
-    <div class="menu-item">
-      <span class="menu-name">Sallatë Jeshile/ Green Salad</span>
-    </div>
-    <div class="menu-item">
-      <span class="menu-name">Sallatë Mediterrane/ Salad Mediterranean</span>
-    </div>
-  </div>
+  <div id="menu"></div>
+  <script>
+    fetch('menu.txt')
+      .then(r => r.text())
+      .then(txt => {
+        const lines = txt.split('\n');
+        let html = '';
+        let inCategory = false;
+        lines.forEach(line => {
+          line = line.trim();
+          if (!line) return;
+          if (line.startsWith('#')) {
+            if (inCategory) html += '</div>'; // κλείνει το προηγούμενο κουτί
+            html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
+            inCategory = true;
+          } else if (line.includes(',')) {
+            const [name, price] = line.split(',');
+            html += `<div class="menu-item">
+                       <span class="menu-name">${name.trim()}</span>
+                       ${price && price.trim() ? `<span class="menu-price">${price.trim()}</span>` : ''}
+                     </div>`;
+          }
+        });
+        if (inCategory) html += '</div>'; // Κλείνει το τελευταίο κουτί!
+        document.getElementById('menu').innerHTML = html;
+      });
+  </script>
 </body>
 </html>
