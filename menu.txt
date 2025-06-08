@@ -2,7 +2,6 @@
 Sallatë Greke/ Greek Salad|200|greek-salad.jpg
 Sallatë Fshati/ Village Salad|200|village-salad.jpg
 Sallatë Jeshile/ Green Salad|300|green-salad.jpg
-Sallatë Mediterrane/ Salad Mediterrean|300|mediterranean-salad.jpg
 
 # ANTIPASTA/APPETIZERS
 Patate/Fries|300|fries.jpg
