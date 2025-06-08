@@ -16,7 +16,7 @@ Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg|(Xaxiq, domate, qep�
 Racion Shishqebap Pule/ Chicken Kebab Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 Chicken wings with bbq sauce and garniture|800|chicken-wings.jpg
 Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg
-Chicken ribs|800|chicken-ribs.jpg
+Pule Paidhaqe / Chicken ribs|800|chicken-ribs.jpg
 Shishqebap vici/Beef souvlaki|800|chicken-burger.jpg
 Racion Llukaniko Viçi / Veal Loukaniko Portion|700|veal-loukaniko.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 Racion Suxhuk/Suxhuk Portion|700|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
