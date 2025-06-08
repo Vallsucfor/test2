@@ -13,14 +13,14 @@ Djath i Pjekur/ Baked Cheese|400|baked-cheese.jpg
 Tirokafteri/Tirokafteri|300|tirokafteri.jpg
 
 # RACION/PORTION
-Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg
-Racion Shishqebap Pule/ Chicken Kebab Portion|700|chicken-kebab.jpg
+Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Shishqebap Pule/ Chicken Kebab Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 Chicken wings|800|chicken-wings.jpg
 Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg
 Chicken ribs|800|chicken-ribs.jpg
 Chicken burger|800|chicken-burger.jpg
-Racion Llukaniko Viçi / Veal Loukaniko Portion|700|veal-loukaniko.jpg
-Racion Suxhuk/Suxhuk Portion|700|suxhuk.jpg
+Racion Llukaniko Viçi / Veal Loukaniko Portion|700|veal-loukaniko.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Suxhuk/Suxhuk Portion|700|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 
 # ZGARË/GRILL
 Shishqebap Pule/ Chicken Kebab|200|chicken-kebab.jpg
@@ -31,18 +31,18 @@ Byftek vici/ Beef Steak|400|beef-steak.jpg
 Mix Zgare/Mix Grill|400|mix-grill.jpg
 
 # SUFLLAQE/GYRO
-Sufllaqe pule/ Chicken Gyro|350|chicken-gyro.jpg
-Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebab|350|gyro-kebab.jpg
-Sufllaqe Suxhuk/Gyro with Sausage|350|gyro-sausage.jpg
-Sufllaqe Llukaniko/ Gyro with Loukaniko|350|gyro-loukaniko.jpg
-Sufllaqe Vegjetariane / Vegetarian Gyro|350|vegetarian-gyro.jpg
+Sufllaqe pule/ Chicken Gyro|350|chicken-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebab|350|gyro-kebab.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Suxhuk/Gyro with Sausage|350|gyro-sausage.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Llukaniko/ Gyro with Loukaniko|350|gyro-loukaniko.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Vegjetariane / Vegetarian Gyro|350|vegetarian-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 
 # SANDUIÇË/ SANDWICH
-Sanduiç Pule/ Chicken Sandwich|500|chicken-sandwich.jpg
-Sanduiç Shishqebap/ Chicken Kebab Sandwich|500|kebab-sandwich.jpg
-Sanduiç Llukaniko / Sausage Sandwich|500|sausage-sandwich.jpg
-Sanduiç Vegjetariane/Vegetarian Sandwich|500|vegetarian-sandwich.jpg
-Sanduiç Suxhuk/Sandwich with "Suxhuk"|700|suxhuk-sandwich.jpg
+Sanduiç Pule/ Chicken Sandwich|500|chicken-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Shishqebap/ Chicken Kebab Sandwich|500|kebab-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Llukaniko / Sausage Sandwich|500|sausage-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Vegjetariane/Vegetarian Sandwich|500|vegetarian-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Suxhuk/Sandwich with "Suxhuk"|700|suxhuk-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
 
 # SQEBASTI/SKEBASTI
 Sqepasti Pule /Chicken Skepasti|700|chicken-skepasti.jpg
