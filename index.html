@@ -158,7 +158,6 @@
             html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
             inCategory = true;
           } else if (line.includes('|')) {
-            // Χωρίζουμε σε μέγιστο 4 πεδία (όνομα, τιμή, εικόνα, υλικά)
             const [name, price, image, ingredients] = line.split('|');
             let imageHtml = '';
             if (image && image.trim()) {
@@ -166,8 +165,9 @@
             }
             let ingredientsHtml = '';
             if (ingredients && ingredients.trim()) {
-              // Προαιρετικά αφαίρεσε τυχόν παρενθέσεις γύρω από τα υλικά
-              ingredientsHtml = `<div class="ingredients">${ingredients.trim().replace(/^\(|\)$/g, '')}</div>`;
+             if (ingredients && ingredients.trim()) {
+  ingredientsHtml = `<div class="ingredients">${ingredients.trim()}</div>`;
+}
             }
             html += `<div class="menu-item">
                        ${imageHtml}
