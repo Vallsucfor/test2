@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <title>MEDITERREAN - Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Γραμματοσειρά τύπου script για τον τίτλο -->
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <!-- Γραμματοσειρά για το υπότιτλο -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
@@ -88,6 +86,7 @@
       flex-direction: row;
       gap: 12px;
       min-height: 64px;
+      position: relative;
     }
     .food-img {
       width: 56px;
@@ -100,8 +99,21 @@
       box-shadow: 0 1px 6px #0003;
       flex-shrink: 0;
     }
+    .menu-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }
     .menu-name { font-weight: 600;}
     .menu-price { color: #ffe28b; font-size: 1em; margin-left: auto;}
+    .ingredients {
+      font-size: 0.98em;
+      color: #ffe28b;
+      margin-top: 4px;
+      font-style: italic;
+      word-break: break-word;
+    }
     @media (max-width: 600px) {
       .category {
         width: 99vw;
@@ -129,10 +141,8 @@
     <div class="header-subtitle">TAVERN AND GYRO<br>MENU</div>
   </div>
 
-  <!-- Εδώ βάζεις το υπόλοιπο μενού σου! -->
   <div id="menu"></div>
 
-  <!-- Script για να φορτώνει το menu.txt και να εμφανίζει εικόνα, όνομα, τιμή -->
   <script>
     fetch('menu.txt')
       .then(r => r.text())
@@ -148,14 +158,23 @@
             html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
             inCategory = true;
           } else if (line.includes('|')) {
-            const [name, price, image] = line.split('|');
+            // Χωρίζουμε σε μέγιστο 4 πεδία (όνομα, τιμή, εικόνα, υλικά)
+            const [name, price, image, ingredients] = line.split('|');
             let imageHtml = '';
             if (image && image.trim()) {
               imageHtml = `<img src="images/${image.trim()}" alt="${name ? name.trim() : ''}" class="food-img">`;
             }
+            let ingredientsHtml = '';
+            if (ingredients && ingredients.trim()) {
+              // Προαιρετικά αφαίρεσε τυχόν παρενθέσεις γύρω από τα υλικά
+              ingredientsHtml = `<div class="ingredients">${ingredients.trim().replace(/^\(|\)$/g, '')}</div>`;
+            }
             html += `<div class="menu-item">
                        ${imageHtml}
-                       <span class="menu-name">${name ? name.trim().replace(/^"|"$/g, '') : ''}</span>
+                       <div class="menu-info">
+                         <span class="menu-name">${name ? name.trim().replace(/^"|"$/g, '') : ''}</span>
+                         ${ingredientsHtml}
+                       </div>
                        ${price && price.trim() ? `<span class="menu-price">${price.trim()}</span>` : ''}
                      </div>`;
           }
