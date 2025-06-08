@@ -62,46 +62,6 @@
         font-size: 0.96em;
       }
     }
-  </style>
-</head>
-<body>
-  <div class="header-box">
-    <div class="header-title">MEDITERREAN</div>
-    <div class="header-subtitle">TAVERN AND GYRO<br>MENU</div>
-  </div>
-
-  <!-- Εδώ βάζεις το υπόλοιπο μενού σου! -->
-  <div id="menu"></div>
-
-  <!-- Αν έχεις script για να φορτώνει το menu.txt, βάζεις το ίδιο script εδώ κάτω -->
-  <script>
-    // Παράδειγμα script για να φορτώσει το μενού από menu.txt με pipe (|) ως διαχωριστικό
-    fetch('menu.txt')
-      .then(r => r.text())
-      .then(txt => {
-        const lines = txt.split('\n');
-        let html = '';
-        let inCategory = false;
-        lines.forEach(line => {
-          line = line.trim();
-          if (!line) return;
-          if (line.startsWith('#')) {
-            if (inCategory) html += '</div>';
-            html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
-            inCategory = true;
-          } else if (line.includes('|')) {
-            const [name, price, image] = line.split('|');
-            html += `<div class="menu-item">
-                       <span class="menu-name">${name ? name.trim().replace(/^"|"$/g, '') : ''}</span>
-                       ${price && price.trim() ? `<span class="menu-price">${price.trim()}</span>` : ''}
-                     </div>`;
-          }
-        });
-        if (inCategory) html += '</div>';
-        document.getElementById('menu').innerHTML = html;
-      });
-  </script>
-  <style>
     .category {
       margin: 32px auto 8px auto;
       width: 98vw;
@@ -124,10 +84,24 @@
       box-sizing: border-box;
       font-weight: 500;
       display: flex;
-      flex-direction: column;
+      align-items: center;
+      flex-direction: row;
+      gap: 12px;
+      min-height: 64px;
+    }
+    .food-img {
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-right: 16px;
+      vertical-align: middle;
+      background: #fff;
+      box-shadow: 0 1px 6px #0003;
+      flex-shrink: 0;
     }
     .menu-name { font-weight: 600;}
-    .menu-price { color: #ffe28b; font-size: 1em; margin-top: 4px;}
+    .menu-price { color: #ffe28b; font-size: 1em; margin-left: auto;}
     @media (max-width: 600px) {
       .category {
         width: 99vw;
@@ -136,7 +110,59 @@
         padding-right: 2vw;
         border-radius: 14px;
       }
+      .menu-item {
+        font-size: 0.98em;
+        min-height: 48px;
+        padding: 10px 7px;
+      }
+      .food-img {
+        width: 44px;
+        height: 44px;
+        margin-right: 8px;
+      }
     }
   </style>
+</head>
+<body>
+  <div class="header-box">
+    <div class="header-title">MEDITERREAN</div>
+    <div class="header-subtitle">TAVERN AND GYRO<br>MENU</div>
+  </div>
+
+  <!-- Εδώ βάζεις το υπόλοιπο μενού σου! -->
+  <div id="menu"></div>
+
+  <!-- Script για να φορτώνει το menu.txt και να εμφανίζει εικόνα, όνομα, τιμή -->
+  <script>
+    fetch('menu.txt')
+      .then(r => r.text())
+      .then(txt => {
+        const lines = txt.split('\n');
+        let html = '';
+        let inCategory = false;
+        lines.forEach(line => {
+          line = line.trim();
+          if (!line) return;
+          if (line.startsWith('#')) {
+            if (inCategory) html += '</div>';
+            html += `<div class="category"><div class="category-title">${line.substring(1).trim()}</div>`;
+            inCategory = true;
+          } else if (line.includes('|')) {
+            const [name, price, image] = line.split('|');
+            let imageHtml = '';
+            if (image && image.trim()) {
+              imageHtml = `<img src="images/${image.trim()}" alt="${name ? name.trim() : ''}" class="food-img">`;
+            }
+            html += `<div class="menu-item">
+                       ${imageHtml}
+                       <span class="menu-name">${name ? name.trim().replace(/^"|"$/g, '') : ''}</span>
+                       ${price && price.trim() ? `<span class="menu-price">${price.trim()}</span>` : ''}
+                     </div>`;
+          }
+        });
+        if (inCategory) html += '</div>';
+        document.getElementById('menu').innerHTML = html;
+      });
+  </script>
 </body>
 </html>
