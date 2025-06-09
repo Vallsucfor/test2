@@ -14,7 +14,7 @@ Tirokafteri/Tirokafteri|300|tirokafteri.jpg
 # RACION/PORTION
 Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 Racion Shishqebap Pule/ Chicken Kebab Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
-Chicken wings with bbq sauce and garniture|800|chicken-wings.jpg
+ Krah pule me bbq sos &garniture / Chicken wings with bbq sauce and garniture|800|chicken-wings.jpg
 Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg
 Pule Paidhaqe / Chicken ribs|800|chicken-ribs.jpg
 Shishqebap vici/Beef souvlaki|800|chicken-burger.jpg
