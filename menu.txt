@@ -14,12 +14,12 @@ Tirokafteri/Tirokafteri|300|tirokafteri.jpg
 # RACION/PORTION
 Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 Racion Shishqebap Pule/ Chicken Souvlaki Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
-Racion krah pule me BBQ sos / Chicken wings with BBQ sauce|1000|chicken-wings.jpg
-Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg
-Pule Paidhaqe / Chicken ribs|800|chicken-ribs.jpg
-Shishqebap vici/Beef souvlaki|800|chicken-burger.jpg
-Racion Llukaniko Viçi / Veal Loukaniko Portion|700|veal-loukaniko.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
-Racion Suxhuk/Suxhuk Portion|700|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion krah pule me BBQ sos / Chicken wings with BBQ sauce|1000|chicken-wings.jpg|((Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Llukanik Vici / Beef sausage portion|800|beef-portion.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Ration gingji /Lamb ribs meat|1300|lamb-ribs.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Filleto Viçi / Beef fillet portion|1500|beef-fillet.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion Suxhuk/Suxhuk Portion|800|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 
 # ZGARË/GRILL
 Shishqebap Pule/ Chicken Souvlaki|200|chicken-kebab.jpg
@@ -35,7 +35,7 @@ Vegetarian Souvlaki|500|vegeterian.jpg|Mushroom,onion,peper in stick)
 Sufllaqe pule/ Chicken Gyro|350|chicken-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebab|350|gyro-kebab.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe Suxhuk/Gyro with Sausage|350|gyro-sausage.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
-Sufllaqe Llukaniko/ Gyro with Loukaniko|350|gyro-loukaniko.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Llukanik/ Gyro with Loukaniko|350|gyro-loukaniko.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe Vegjetariane / Vegetarian Gyro|350|vegetarian-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe Vegan / Souvlaki Vegan|350|vegan-gyro.jpg|(Kerpudh,qep,speca) / (Mushroom,onion,pepers)
 
