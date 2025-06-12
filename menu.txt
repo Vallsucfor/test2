@@ -28,7 +28,7 @@ Fileto Pule/ Chicken Fillet|400|chicken-fillet.jpg
 Mish gingji/ Lamb meat kg|400|lamb-ribs.jpg
 Filleto vici/ Beef Fillet Steak|400|beef-steak.jpg
 Krah Pule/ Chicken Wings|600|chicken-wings.jpg
-Mix Zgare/Mix Grill|9000|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
+Mix Zgare/Mix Grill|4000|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
 Vegetarian Souvlaki|500|vegeterian.jpg|Mushroom,onion,peper in stick)
 
 # SUFLLAQE/GYRO
@@ -50,11 +50,11 @@ Sanduiç Suxhuk/Sandwich with "Suxhuk"|700|suxhuk-sandwich.jpg|(Domate, patate, 
 Sqepasti Pule /Chicken Skepasti|700|chicken-skepasti.jpg|(Pita,gyro,cheese,tomato,sos,tzatziki)
 
 # PIJE FRESKUESE/SOFT DRINKS
-Coca Cola|300|coca-cola.jpg
-Fanta|300|fanta.jpg
-Soda (Orange, Lemon, Mojito)|150|soda.jpg
-Ice Tea|150|ice-tea.jpg
-Bravo (Apple, Peach)|150|bravo.jpg
+Coca Cola|200|coca-cola.jpg
+Fanta|200|fanta.jpg
+Soda (Orange, Lemon, Mojito)|200|soda.jpg
+Ice Tea|200|ice-tea.jpg
+Bravo (Apple, Peach)|200|bravo.jpg
 Ujë i Vogël/Small Water|100|small-water.jpg
 Ujë i Madh/ Big Water|200|big-water.jpg
 
