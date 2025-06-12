@@ -28,7 +28,7 @@ Fileto Pule/ Chicken Fillet|400|chicken-fillet.jpg
 Mish gingji/ Lamb meat kg|400|lamb-ribs.jpg
 Filleto vici/ Beef Fillet Steak|400|beef-steak.jpg
 Krah Pule/ Chicken Wings|600|chicken-wings.jpg
-Mix Zgare/Mix Grill|400|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
+Mix Zgare/Mix Grill|9000|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
 Vegetarian Souvlaki|500|vegeterian.jpg|Mushroom,onion,peper in stick)
 
 # SUFLLAQE/GYRO
