@@ -1,11 +1,11 @@
 # SALLATË/SALADS
-Sallatë Greke/ Greek Salad|200|greek-salad.jpg
-Sallatë Fshati/ Village Salad|200|village-salad.jpg
-Sallatë Jeshile/ Green Salad|300|green-salad.jpg
+Sallatë Greke/ Greek Salad|400|greek-salad.jpg|(Tomato,cucumber,onion,white cheese,olives)
+Sallatë Fshati/ Village Salad|350|village-salad.jpg|(Tomato,cucumber,onion)
+Sallatë Jeshile/ Green Salad|350|green-salad.jpg|(green sallad,fresh onion,cucumber|
 
 # ANTIPASTA/APPETIZERS
 Patate/Fries|300|fries.jpg
-Tzatziq/Tzatziki|300|sour-cream.jpg
+Tzatziq/Tzatziki|300|tzatziki.jpg
 Djath i Bardhë/ White Cheese|300|white-cheese.jpg
 Perime Zgare/ Grilled Vegetables|400|grilled-vegetables.jpg
 Djath i Pjekur/ Baked Cheese|400|baked-cheese.jpg
@@ -13,8 +13,8 @@ Tirokafteri/Tirokafteri|300|tirokafteri.jpg
 
 # RACION/PORTION
 Racion Gyro Pule/ Chicken Gyro Portion|750|chicken-gyro.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
-Racion Shishqebap Pule/ Chicken Kebab Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
- Krah pule me bbq sos &garniture / Chicken wings with bbq sauce and garniture|800|chicken-wings.jpg
+Racion Shishqebap Pule/ Chicken Souvlaki Portion|700|chicken-kebab.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
+Racion krah pule me BBQ sos / Chicken wings with BBQ sauce|1000|chicken-wings.jpg
 Racion Fileto Pule / Chicken Fillet|850|chicken-fillet.jpg
 Pule Paidhaqe / Chicken ribs|800|chicken-ribs.jpg
 Shishqebap vici/Beef souvlaki|800|chicken-burger.jpg
@@ -22,12 +22,14 @@ Racion Llukaniko Viçi / Veal Loukaniko Portion|700|veal-loukaniko.jpg|(Xaxiq, d
 Racion Suxhuk/Suxhuk Portion|700|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite) / (Tzatziki, tomatoes, onion, fries, pita)
 
 # ZGARË/GRILL
-Shishqebap Pule/ Chicken Kebab|200|chicken-kebab.jpg
-Llukaniko Viçi/ Loukaniko Beef|400|loukaniko.jpg
+Shishqebap Pule/ Chicken Souvlaki|200|chicken-kebab.jpg
+Llukaniko Viçi/ Beef sausage|200|loukaniko.jpg
 Fileto Pule/ Chicken Fillet|400|chicken-fillet.jpg
-Mish Paidhaqe/ Lamb Ribs|400|lamb-ribs.jpg
-Byftek vici/ Beef Steak|400|beef-steak.jpg
-Mix Zgare/Mix Grill|400|mix-grill.jpg
+Mish gingji/ Lamb meat kg|400|lamb-ribs.jpg
+Filleto vici/ Beef Fillet Steak|400|beef-steak.jpg
+Krah Pule/ Chicken Wings|600|chicken-wings.jpg
+Mix Zgare/Mix Grill|400|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
+Vegetarian Souvlaki|500|vegeterian.jpg|Mushroom,onion,peper in stick)
 
 # SUFLLAQE/GYRO
 Sufllaqe pule/ Chicken Gyro|350|chicken-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
@@ -45,11 +47,11 @@ Sanduiç Vegjetariane/Vegetarian Sandwich|500|vegetarian-sandwich.jpg|(Domate, p
 Sanduiç Suxhuk/Sandwich with "Suxhuk"|700|suxhuk-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
 
 # SQEBASTI/SKEBASTI
-Sqepasti Pule /Chicken Skepasti|700|chicken-skepasti.jpg
+Sqepasti Pule /Chicken Skepasti|700|chicken-skepasti.jpg|(Pita,gyro,cheese,tomato,sos,tzatziki)
 
 # PIJE FRESKUESE/SOFT DRINKS
-Coca Cola|150|coca-cola.jpg
-Fanta|150|fanta.jpg
+Coca Cola|300|coca-cola.jpg
+Fanta|300|fanta.jpg
 Soda (Orange, Lemon, Mojito)|150|soda.jpg
 Ice Tea|150|ice-tea.jpg
 Bravo (Apple, Peach)|150|bravo.jpg
@@ -69,10 +71,10 @@ Lëng Portokalli/Orange Juice|300|orange-juice.jpg
 # BIRRA/BEERS
 Peja|200|peja.jpg
 Elbar|200|elbar.jpg
-Korça|200|korca.jpg
-Heineken|200|heineken.jpg
+Korça|300|korca.jpg
+Heineken|300|heineken.jpg
 Bavaria|200|bavaria.jpg
 
 # VERË/WINE
-Verë e Kuqe/ Red Wine|400|red-wine.jpg
-Verë e Bardhë/ White Wine|400|white-wine.jpg
+Verë e Kuqe/ Red Wine(0.5L)|500|red-wine.jpg
+Verë e Bardhë/ White Wine(0.5L)|500|white-wine.jpg
