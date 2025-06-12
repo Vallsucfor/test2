@@ -5,8 +5,8 @@ Sallatë Jeshile/ Green Salad|350|green-salad.jpg|(green sallad,fresh onion,cucu
 
 # ANTIPASTA/APPETIZERS
 Patate/Fries|300|fries.jpg
-Tzatziq/Tzatziki|300|tzatziki.jpg
-Djath i Bardhë/ White Cheese|300|white-cheese.jpg
+Xaxiq/Tzatziki|300|tzatziki.jpg
+Djath i Bardh/ White Cheese|300|white-cheese.jpg
 Perime Zgare/ Grilled Vegetables|400|grilled-vegetables.jpg
 Djath i Pjekur/ Baked Cheese|400|baked-cheese.jpg
 Tirokafteri/Tirokafteri|300|tirokafteri.jpg
