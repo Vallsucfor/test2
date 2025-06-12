@@ -47,7 +47,7 @@ Sanduiç Vegjetariane/Vegetarian Sandwich|500|vegetarian-sandwich.jpg|(Domate, p
 Sanduiç Suxhuk/Sandwich with "Suxhuk"|700|suxhuk-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
 
 # SQEBASTI/SKEBASTI
-Sqepasti Pule /Chicken Skepasti|700|chicken-skepasti.jpg|(Pita,gyro,cheese,tomato,sos,tzatziki)
+Sqepasti Pule /Chicken Skepasti|800|chicken-skepasti.jpg|(Pita,gyro,cheese,tomato,sos,tzatziki)
 
 # PIJE FRESKUESE/SOFT DRINKS
 Coca Cola|200|coca-cola.jpg
