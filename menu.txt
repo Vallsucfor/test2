@@ -25,7 +25,7 @@ Racion Suxhuk/Suxhuk Portion|800|suxhuk.jpg|(Xaxiq, domate, qepë, patate, pite)
 Shishqebap Pule/ Chicken Souvlaki|200|chicken-kebab.jpg
 Llukaniko Viçi/ Beef sausage|200|loukaniko.jpg
 Fileto Pule/ Chicken Fillet|400|chicken-fillet.jpg
-Mish gingji/ Lamb meat kg|400|lamb-ribs.jpg
+Mish gingji/ Lamb meat kg|3000|lamb-ribs.jpg
 Filleto vici/ Beef Fillet Steak|400|beef-steak.jpg
 Krah Pule/ Chicken Wings|600|chicken-wings.jpg
 Mix Zgare/Mix Grill|4000|mix-grill.jpg|Chicken souvlaki,sausage,chicken fillet,lamp,chicken wings)
