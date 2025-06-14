@@ -40,11 +40,11 @@ Sufllaqe Vegjetariane / Vegetarian Gyro|350|vegetarian-gyro.jpg|(Xaxiq, qepë, d
 Sufllaqe Vegan / Souvlaki Vegan|350|vegan-gyro.jpg|(Kerpudh,qep,speca) / (Mushroom,onion,pepers)
 
 # SANDUIÇË/ SANDWICH
-Sanduiç Pule/ Chicken Sandwich|500|chicken-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
-Sanduiç Shishqebap/ Chicken Kebab Sandwich|500|kebab-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
-Sanduiç Llukaniko / Sausage Sandwich|500|sausage-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
-Sanduiç Vegjetariane/Vegetarian Sandwich|500|vegetarian-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
-Sanduiç Suxhuk/Sandwich with Suxhuk|700|suxhuk-sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Pule/ Chicken Sandwich|500|sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Shishqebap/ Chicken Kebab Sandwich|500|sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Llukaniko / Sausage Sandwich|500|sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Vegjetariane/Vegetarian Sandwich|500|sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
+Sanduiç Suxhuk/Sandwich with Suxhuk|700|sandwich.jpg|(Domate, patate, sos) / (Tomatoes, fries, sos)
 
 # SQEBASTI/SKEBASTI
 Sqepasti Pule /Chicken Skepasti|800|chicken-skepasti.jpg|(Pita,gyro,cheese,tomato,sos,tzatziki)
