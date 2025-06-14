@@ -34,8 +34,8 @@ Vegetarian Souvlaki|500|vegeterian.jpg|(Mushroom,onion,peper in stick)
 # SUFLLAQE/GYRO
 Sufllaqe pule/ Chicken Gyro|350|chicken-souvlaki.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe me Shishqebap Pule/ Gyro with Chicken Kebab|350|gyro-kebab.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
-Sufllaqe Suxhuk/Gyro with Sausage|350|gyro-sausage.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
-Sufllaqe Llukanik/ Gyro with Loukaniko|350|gyro-loukaniko.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Suxhuk/Gyro with Suxhuk|350|gyro-suxhuk.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
+Sufllaqe Llukanik/ Gyro with Sausage|350|gyro-sausage.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe Vegjetariane / Vegetarian Gyro|350|vegetarian-gyro.jpg|(Xaxiq, qepë, domate, patate) / (Tzatziki, onion, tomatoes, fries)
 Sufllaqe Vegan / Souvlaki Vegan|350|vegan-gyro.jpg|(Kerpudh,qep,speca) / (Mushroom,onion,pepers)
 
