@@ -78,3 +78,8 @@ Bavaria|200|bavaria.jpg
 # VERË/WINE
 Verë e Kuqe/ Red Wine(0.5L)|500|red-wine.jpg
 Verë e Bardhë/ White Wine(0.5L)|500|white-wine.jpg
+
+# ΚΟΚΤΕΙΛ/COCKTAILS
+Μοχίτο/Mojito|350|mojito.jpg
+Πίνα Κολάδα/Pina Colada|350|pina-colada.jpg
+Μαργαρίτα/Margarita|350|margarita.jpg
